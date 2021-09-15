@@ -8,6 +8,6 @@ import React from 'react'
         )
         return element
     } 
-      setInterval(tick, 1000)
+      setInterval(() => tick, 1000)
 
   export default tick
